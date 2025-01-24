@@ -11,7 +11,7 @@ image: assets/img/rdp/server.jpg
 
 <h4>Hi guys, today I want to teach you how you can create a free server with github.</h4>
 
-<h2>Steps 1</h2>
+## Steps 1
 <ol>
   <li>In the first step, you need to log in to your GitHub and go to the codespaces section, then create a codespace (:</li>
   <li>In the first section, select a repository (preferably create one).</li>
@@ -30,7 +30,7 @@ image: assets/img/rdp/server.jpg
     <img src="assets/img/rdp/delete.png" alt="Disable auto delete" width="850" height="200">
 </div>
 
-<h2>Terminal Commands</h2>
+## Terminal Commands
 <p>Now we are dealing with this part called the terminal. Execute the commands one by one and wait until the terminal finishes working before moving on to the next command.</p>
 
 <span style="color: yellow;">Tip:</span> How do we know when the terminal is finished? As in the picture below, the line of code ends with <span style="color: yellow;">$</span>, meaning the terminal is ready to enter!
@@ -52,7 +52,7 @@ image: assets/img/rdp/server.jpg
   <li><code>sudo service lightdm stop</code></li>
 </ol>
 
-<h2>Steps 2</h2>
+## Steps 2
 <ol>
   <li>Now you need to go to the <a href="https://remotedesktop.google.com/headless" target="_blank">Remote Desktop site</a> and in the setup via SSH section, click "Begin", then "Next", and "Authorize".</li>
   <li>Copy the link in the Debian Linux section.</li>
@@ -72,7 +72,7 @@ image: assets/img/rdp/server.jpg
     <img src="assets/img/rdp/device.png" alt="Remote Access Device" width="750" height="200">
 </div>
 
-<h2>Testing Your Server</h2>
+### Testing Your Server
 <p>Now you click on codespace and enter your PIN.</p>
 
 <div style="text-align: center; margin: 20px 0;">

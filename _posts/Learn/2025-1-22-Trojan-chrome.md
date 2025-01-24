@@ -3,7 +3,7 @@ title: "Trojan Google Chrome🔍"
 date: 2025-01-24 12:36:02 +0330
 categories: [Learning, Trojan]
 tags: [Trojan, Python, Data]
-description: "Stealing Google data with Trojan"
+description: "Stealing Google data with Trojan - Telgram Robot - Source Code - Photo"
 image: assets/img/c-trojan/img.png
 ---
 

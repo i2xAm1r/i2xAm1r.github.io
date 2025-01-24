@@ -3,6 +3,7 @@ title: "Netwizard Pro⚡"
 categories: [Github, Netwizard]
 tags: [Script,C]
 date: 2025-01-17 4:53:00 +0330
+image: assets/img/Github/netwizard.png
 description: "NetWizard is a security program for managing your network that has the ability to scan port - extract WiFi passwords - manage firewalls - test server pings - manage DNS" 
 ---
 ![image](https://github.com/user-attachments/assets/987c9a80-a553-43b4-af10-997c70b7ac5f)<br>

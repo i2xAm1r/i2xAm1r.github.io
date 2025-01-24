@@ -3,6 +3,7 @@ categories: [Github , Iranslot]
 tags: [Application,Python]
 order: 2
 description: "IT repairman testing and troubleshooting program for iranslot"
+image: assets/img/Github/iranslot.jpg
 ---
 <h2>Projects</h2>
 <ul>
