@@ -3,7 +3,7 @@ title: "Trojan Google Chrome🔍"
 date: 2025-01-24 12:36:02 +0330
 categories: [Learning, Trojan]
 tags: [Trojan, Python, Data]
-description: "Stealing Google data with Trojan - Telgram Robot - Source Code - Photo"
+description: "Stealing Google data with Trojan - Telegram Robot - Source Code - Photo"
 image: assets/img/c-trojan/img.png
 ---
 
@@ -125,10 +125,21 @@ To protect against similar attacks:
 This document and its accompanying code are provided for **educational purposes only**. The author is not responsible for any misuse or damage caused by the use of this information.
 
 --- 
-## 🔗 Discord
+## Social Media
+
+<a href="https://instagram.com/2xAm1r" target="_blank">
+    <i class="fab fa-instagram"></i> Instagram
+</a><br>
+
+<a href="https://t.me/I2xAm1r" target="_blank">
+    <i class="fab fa-telegram"></i> Telegram
+</a><br>
+
+<a href="https://github.com/i2xAm1r" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+    
 [![Discord server](https://discordapp.com/api/guilds/938143724565835848/embed.png?style=banner3)](https://discord.gg/WtPzSe94)
 
 ---
-
 
 

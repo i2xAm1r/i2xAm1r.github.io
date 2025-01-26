@@ -98,3 +98,21 @@ image: assets/img/rdp/server.jpg
 <div style="text-align: center; margin-top: 20px; font-family: Arial, sans-serif; font-size: 18px;">
     <p>If you liked this tutorial, I would appreciate it if you could support me on social media. 😊</p>
 </div>
+
+--- 
+## Social Media
+
+<a href="https://instagram.com/2xAm1r" target="_blank">
+    <i class="fab fa-instagram"></i> Instagram
+</a><br>
+
+<a href="https://t.me/I2xAm1r" target="_blank">
+    <i class="fab fa-telegram"></i> Telegram
+</a><br>
+
+<a href="https://github.com/i2xAm1r" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+    
+[![Discord server](https://discordapp.com/api/guilds/938143724565835848/embed.png?style=banner3)](https://discord.gg/WtPzSe94)
+
+---

@@ -27,13 +27,28 @@ By default, the app comes with a list of popular DNS servers in Iran.
 | Electro DNS  | 78.157.42.100,78.157.42.101 |
 
 ## How to Use
-<b>1. Download and launch the application. [NetWizard.exe](https://github.com/2xAm1r/NetWizard/blob/main/NetWizard.exe)<b><br>
+<b>1. Download and launch the application. [NetWizard.exe](https://github.com/i2xAm1r/Netwizard/releases/download/network/NetWizard.exe)<b><br>
 <b>2. If features such as DNS are not applied, open the program with run as administrator<b><br>
 <b>3. The wifi password feature does not work on LAN, only wifi<b>
 
-## 🔗 Discord
+--- 
+## Social Media
+
+<a href="https://instagram.com/2xAm1r" target="_blank">
+    <i class="fab fa-instagram"></i> Instagram
+</a><br>
+
+<a href="https://t.me/I2xAm1r" target="_blank">
+    <i class="fab fa-telegram"></i> Telegram
+</a><br>
+
+<a href="https://github.com/i2xAm1r" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+    
 [![Discord server](https://discordapp.com/api/guilds/938143724565835848/embed.png?style=banner3)](https://discord.gg/WtPzSe94)
+
+---
 
 ## Acknowledgments
 
-<b>This application was developed by [2xAm1r](https://github.com/2xAm1r/) The DNS server sets were provided by the developer and may be subject to change<b>
+<b>This application was developed by [2xAm1r](https://github.com/i2xAm1r/) The DNS server sets were provided by the developer and may be subject to change<b>

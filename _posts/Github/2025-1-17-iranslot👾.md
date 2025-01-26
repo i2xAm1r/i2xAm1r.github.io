@@ -8,7 +8,7 @@ image: assets/img/Github/iranslot.jpg
 <h2>Projects</h2>
 <ul>
   <li>
-    <a href="https://github.com/2xAm1r/Iranslot-App" target="_blank">
+    <a href="https://github.com/i2xAm1r/Iranslot-App" target="_blank">
       IranSlot : 
     </a>
     <p>IT repairman testing and troubleshooting program for iranslot,
@@ -47,11 +47,26 @@ By default, the app comes with a list of popular DNS servers in Iran.
 
 ![image](https://github.com/user-attachments/assets/b0574680-70fd-4ec6-8cf5-5da4d3acbb7c)
 
-## 🔗 Discord
+--- 
+## Social Media
+
+<a href="https://instagram.com/2xAm1r" target="_blank">
+    <i class="fab fa-instagram"></i> Instagram
+</a><br>
+
+<a href="https://t.me/I2xAm1r" target="_blank">
+    <i class="fab fa-telegram"></i> Telegram
+</a><br>
+
+<a href="https://github.com/i2xAm1r" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+    
 [![Discord server](https://discordapp.com/api/guilds/938143724565835848/embed.png?style=banner3)](https://discord.gg/WtPzSe94)
 
-## 🤝 Contact
+---
+
+## 🤝 Contact Me
 
 2xAm1r - [Telegram](https://t.me/bftup) - [Awmircode@gmail.com](mailto:Awmircode@gmail.com)
 
-Project Link: [Iranslot-App GitHub](https://github.com/2xAm1r/Iranslot-App)
+Project Link: [Iranslot-App GitHub](https://github.com/i2xAm1r/Iranslot-App)
