@@ -290,18 +290,10 @@ This code can be used to collect and send location data to Telegram for various 
 This document and its accompanying code are provided for **educational purposes only**. The author is not responsible for any misuse or damage caused by the use of this information.
 
 --- 
-## Social Media 
-
-<a href="https://instagram.com/2xAm1r" target="_blank">
-    <i class="fab fa-instagram"></i> Instagram
-</a><br>
-
-<a href="https://t.me/I2xAm1r" target="_blank">
-    <i class="fab fa-telegram"></i> Telegram
-</a><br>
-
-<a href="https://github.com/i2xAm1r" target="_blank">
-    <i class="fab fa-github"></i> GitHub
+## 📡 Social Media 
+[![Telegram](https://img.shields.io/badge/Telegram-Join-blue)](https://t.me/i2xam1r)  
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-red)](https://instagram.com/2xam1r)  
+[![GitHub](https://img.shields.io/badge/GitHub-View-black)](https://github.com/i2xam1r)
 
 [![Discord server](https://discordapp.com/api/guilds/938143724565835848/embed.png?style=banner3)](https://discord.gg/WtPzSe94)
 
