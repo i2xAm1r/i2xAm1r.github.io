@@ -1,15 +1,15 @@
 ---
-title: "Free server building tutorial 🍃"
+title: "Free server Linux building tutorial 🍃"
 date: 2025-01-18 17:36:02 +0330
 categories: [Learning, RDP]
 tags: [Server, Linux, RDP]
-description: "Create a free server with github ⌀"
+description: "Create a free server with github "
 image: assets/img/rdp/server.jpg
 ---
 
 ## How to Use a Free Server on GitHub
 
-<h4>Hi guys, today I want to teach you how you can create a free server with github.</h4>
+<h4>Hi guys, today I want to teach you how you can create a free server Linux with github.</h4>
 
 ## Steps 1
 <ol>
