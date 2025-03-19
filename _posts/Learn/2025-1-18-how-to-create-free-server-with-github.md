@@ -3,7 +3,7 @@ title: "Free server Linux building tutorial 🍃"
 date: 2025-01-18 17:36:02 +0330
 categories: [Learning, RDP]
 tags: [Server, Linux, RDP]
-description: "Create a free server with github "
+description: "Create a free server with github  + 32G Ram + 4 Core + Speedtest"
 image: assets/img/rdp/server.jpg
 ---
 
