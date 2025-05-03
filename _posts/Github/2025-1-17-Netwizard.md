@@ -1,5 +1,5 @@
 ---
-title: "Netwizard Pro⚡"
+title: "Netwizard Pro🗝️"
 categories: [Github, Netwizard]
 tags: [Script,C]
 date: 2025-01-17 4:53:00 +0330
