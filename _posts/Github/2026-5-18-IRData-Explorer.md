@@ -4,90 +4,80 @@ categories: [Github, IRDataExplorer]
 tags: [Application,Python,SQLServer]
 date: 2026-05-18 18:40:00 +0330
 image: assets/img/Github/IRData.png
-description: "دیتابیس ثبت احوال ایران:
-این برنامه با دیتابیس لیک شده ثبت احوال به شما اجازه میده مشخصات افراد رو با شماره تلفن و ادرس و اسم جستجو کنید تا به تارگت مدنظرتون برسید + 20 میلیون مشخصات "
+description: "Iranian DataBase Leak📑 > دیتابیس لیک شده سامانه ثبت احوال ایران و ایرانسل"
 ---
 
-<h2>Projects</h2>
-<ul>
-  <li>
-    <a href="https://github.com/i2xAm1r/IRData-Explorer" target="_blank">
-    📃IRData Explorer :
-    </a>
+# 📃 IRData Explorer v1.1.0
 
-<p>
-
-IRData Explorer is a modern desktop-based database exploration and search platform developed using Python, PySide6, and Microsoft SQL Server.  
-This application is designed for fast searching across large MDF/LDF databases with a modern graphical interface, smart filtering system, and multi-database support. 🚀💻
-
-The tool provides intelligent searching capabilities such as phone normalization, Persian text normalization, instant result filtering, CSV exporting, and dynamic database configuration.  
-It was built to provide a fast and user-friendly experience for exploring and managing large SQL Server datasets without requiring users to manually write SQL queries.
-</p>
-
-  </li>
-</ul>
-
-## 🔧 Features
-
-- **Fast Multi-Database Search**
-- **SQL Server MDF/LDF Support**
-- **Smart Phone Number Matching**
-- **Persian Text Normalization**
-- **Search by Name, Phone, Address, IDCode and more**
-- **Live Filtering**
-- **CSV Export**
-- **Copy Selected Record**
-- **Double Click Record Details**
-- **Dark Theme**
-- **Hacker Green Theme**
-- **Config-based Database Management**
-- **Windows EXE Support**
-
-## 🎯 Key Features:
-
-Modern graphical interface for large database searching
-
-Supports multiple SQL Server databases simultaneously
-
-Fast filtering and smart searching system
-
-Automatic database attach support
-
-Executable Windows application (.exe)
-
-Modern dark and hacker-inspired themes
-
-Optimized for very large database files
-
-Supports exporting search results to CSV
+[GitHub Repository](https://github.com/i2xAm1r/IRData-Explorer)
 
 ---
 
-## 📸 UI Preview
+## ⚡ About Project
 
-![image](https://github.com/i2xAm1r/IRData-Explorer/blob/main/Screenshot%202026-05-18%20182539.png?raw=true)
+IRData Explorer is a modern Windows desktop application developed with **Python**, **PySide6**, and **SQL Server**.
+
+It is designed for searching, filtering, and exploring large database files through a simple graphical interface.
+
+The application supports:
+
+- SQL Server MDF/LDF databases
+- Microsoft Access MDB databases
+- Multi-database search
+- Smart phone number matching
+- Persian text normalization
+- CSV export
+- Dark and Hacker Green themes
+
+---
+
+## 🚀 Features
+
+- Fast multi-database search
+- SQL Server MDF/LDF support
+- Microsoft Access MDB support
+- Smart phone number matching
+- Persian text normalization
+- Search by:
+  - Name
+  - Mobile
+  - Telephone
+  - Address
+  - IDCode
+  - PostCode
+- Live filtering inside results
+- Multiple database selection
+- Auto-detect MDB tables
+- CSV export
+- Double click record details
+- Hacker Green Theme
+- Dark Theme
+- Config-based database management
+- Windows EXE support
+
+---
+
+## 📸 Screenshot
+
+![Main Dashboard](https://github.com/i2xAm1r/IRData-Explorer/blob/main/Screenshot%202026-05-18%20182539.png?raw=true)
 
 ---
 
 ## 📦 Requirements
 
-Before running IRData Explorer, make sure the following requirements are installed:
+Before running the application, install:
 
-- **Windows 10 / Windows 11**
-- **Microsoft SQL Server**
-  - SQL Server Developer
-  - or SQL Server Express
-- **SQL Server Management Studio (SSMS)**  
-  Optional, but recommended for manual database attach and troubleshooting.
+- Windows 10 / 11
+- Microsoft SQL Server
+  - SQL Server Express
+  - or SQL Server Developer
+- Microsoft Access Database Engine 2016 x64
 
-For development/building from source:
+Optional but recommended:
 
-- Python 3.10+
-- PySide6
-- pyodbc
-- PyInstaller
+- SQL Server Management Studio (SSMS)
 
-Install Python dependencies:
+For source version:
 
 ```bash
 pip install PySide6 pyodbc pyinstaller
@@ -95,9 +85,11 @@ pip install PySide6 pyodbc pyinstaller
 
 ---
 
-## 🗄️ Database Setup
+## 🗄️ Supported Database Types
 
-IRData Explorer works with SQL Server databases such as:
+### SQL Server Databases
+
+Example files:
 
 ```text
 KDB_M.mdf
@@ -106,60 +98,169 @@ KDB98_M.mdf
 KDB98_M.ldf
 ```
 
-### Manual Attach with SSMS
-
-1. Open SQL Server Management Studio
-2. Connect to your SQL Server instance
-3. Right click on Databases
-4. Click Attach
-5. Click Add
-6. Select the `.mdf` file
-7. SQL Server should automatically detect the `.ldf` file
-8. Click OK
-9. Repeat for other databases if needed
+These databases require **Microsoft SQL Server**.
 
 ---
 
-## ⚙️ Configuration
+### Microsoft Access MDB Databases
 
-The application uses a `config.json` file to detect:
+Example files:
 
-- SQL Server name
-- Database names
-- MDF file path
-- LDF file path
+```text
+935_1.mdb
+935-2.mdb
+936.mdb
+937.mdb
+938.mdb
+939.mdb
+```
+
+MDB databases do **not** require SQL Server.
+
+They require:
+
+```text
+Microsoft Access Database Engine 2016 x64
+```
+
+---
+
+## 🗄️ SQL Database Setup
+
+### Step 1 — Extract Database Files
+
+After downloading your database archive, extract the ZIP/RAR file.
+
+You should have files like:
+
+```text
+KDB_M.mdf
+KDB_M.ldf
+KDB98_M.mdf
+KDB98_M.ldf
+```
+
+---
+
+### Step 2 — Install SQL Server
+
+Install one of the following:
+
+- Microsoft SQL Server Express
+- Microsoft SQL Server Developer
+
+Optional but recommended:
+
+- SQL Server Management Studio (SSMS)
+
+---
+
+### Step 3 — Attach Database to SQL Server
+
+1. Open **SQL Server Management Studio (SSMS)**
+2. Connect to your SQL Server
+3. Right click on **Databases**
+4. Click **Attach**
+5. Click **Add**
+6. Select:
+
+```text
+KDB_M.mdf
+```
+
+7. SQL Server should automatically detect:
+
+```text
+KDB_M.ldf
+```
+
+8. Click **OK**
+
+Repeat the same steps for:
+
+```text
+KDB98_M.mdf
+```
+
+After attaching both databases, the application can connect automatically.
+
+---
+
+## 📁 MDB Database Setup
+
+MDB files do not need SQL Server attach.
+
+You only need:
+
+- Microsoft Access Database Engine 2016 x64
+- Correct MDB paths inside `config.json`
 
 Example:
 
 ```json
 {
-    "server": "localhost",
-    "databases": [
-        {
-            "name": "KDB_M",
-            "mdf_path": "D:\\Database\\KDB_M.mdf",
-            "ldf_path": "D:\\Database\\KDB_M.ldf"
-        },
-        {
-            "name": "KDB98_M",
-            "mdf_path": "D:\\Database\\KDB98_M.mdf",
-            "ldf_path": "D:\\Database\\KDB98_M.ldf"
-        }
-    ]
+  "name": "MDB:935",
+  "path": "D:\\MDB\\935_1.mdb"
 }
-```
-
-### Important Path Note
-
-In JSON files, Windows paths must use double backslashes:
-
-```json
-"D:\\Database\\KDB_M.mdf"
 ```
 
 ---
 
-## 🖥️ Server Name Guide
+## ⚙️ Configure config.json
+
+Place `config.json` next to the EXE file.
+
+Example:
+
+```json
+{
+  "server": "localhost",
+
+  "databases": [
+    {
+      "name": "KDB_M",
+      "mdf_path": "D:\\Database\\KDB_M.mdf",
+      "ldf_path": "D:\\Database\\KDB_M.ldf"
+    },
+    {
+      "name": "KDB98_M",
+      "mdf_path": "D:\\Database\\KDB98_M.mdf",
+      "ldf_path": "D:\\Database\\KDB98_M.ldf"
+    }
+  ],
+
+  "access_databases": [
+    {
+      "name": "MDB:935",
+      "path": "D:\\MDB\\935_1.mdb"
+    },
+    {
+      "name": "MDB:935|2",
+      "path": "D:\\MDB\\935-2.mdb"
+    }
+  ]
+}
+```
+
+Important:
+
+Windows paths must use double backslashes.
+
+Correct:
+
+```text
+D:\\Database\\KDB_M.mdf
+```
+
+Wrong:
+
+```text
+D:\Database\KDB_M.mdf
+```
+
+---
+
+## 🖥️ SQL Server Name
 
 Default SQL Server:
 
@@ -167,13 +268,13 @@ Default SQL Server:
 "server": "localhost"
 ```
 
-SQL Server Express:
+SQL Express:
 
 ```json
 "server": "localhost\\SQLEXPRESS"
 ```
 
-Custom SQL Instance:
+Custom SQL instance:
 
 ```json
 "server": "DESKTOP-123ABC\\SQLEXPRESS"
@@ -181,35 +282,136 @@ Custom SQL Instance:
 
 ---
 
-## 📁 Final Release Structure
+## 📁 Final Folder Structure
 
 ```text
 IRDataExplorer/
 ├── IRDataExplorer.exe
 ├── config.json
+├── icon.ico
 └── Database/
-    ├── KDB_M.mdf
-    ├── KDB_M.ldf
-    ├── KDB98_M.mdf
-    └── KDB98_M.ldf
 ```
+
+---
+
+## ▶️ Run Application
+
+Run:
+
+```text
+IRDataExplorer.exe
+```
+
+If databases are already attached:
+
+- App connects automatically
+
+If databases are not attached:
+
+- App tries auto attach using `config.json` paths
 
 ---
 
 ## ⚠️ Troubleshooting
 
-If the app cannot connect to the database:
+If the application cannot connect:
 
-- Make sure SQL Server is installed
-- Make sure SQL Server service is running
-- Make sure `config.json` is next to the `.exe`
-- Make sure the server name is correct
-- Make sure MDF/LDF paths are correct
-- Try running the app as Administrator
+- Make sure SQL Server is running
+- Check `config.json`
+- Check MDF/LDF paths
+- Check MDB paths
+- Check SQL Server name
+- Run app as Administrator
 
 ---
 
-## 📡 Social Media 
+## 🇮🇷 توضیحات فارسی
+
+IRData Explorer یک برنامه دسکتاپ ویندوزی برای جستجو، فیلتر و مدیریت دیتابیس‌های بزرگ است.
+
+این برنامه با **Python** و **PySide6** ساخته شده و از دیتابیس‌های زیر پشتیبانی می‌کند:
+
+- SQL Server با فایل‌های MDF/LDF
+- Microsoft Access با فایل‌های MDB
+
+---
+
+## 🚀 قابلیت‌ها
+
+- جستجوی سریع بین چند دیتابیس
+- پشتیبانی از MDF/LDF
+- پشتیبانی از MDB
+- جستجوی هوشمند شماره موبایل
+- نرمال‌سازی متن فارسی
+- جستجو بر اساس:
+  - نام
+  - موبایل
+  - تلفن
+  - آدرس
+  - کدملی
+  - کدپستی
+- فیلتر زنده نتایج
+- تشخیص خودکار Table فایل‌های MDB
+- خروجی CSV
+- نمایش جزئیات رکورد با دابل‌کلیک
+- تم Dark
+- تم Hacker Green
+- مدیریت دیتابیس با config.json
+- نسخه EXE ویندوز
+
+---
+
+## ⚙️ پیش‌نیازها
+
+قبل از اجرای برنامه نصب کنید:
+
+- Windows 10 / 11
+- Microsoft SQL Server
+- Microsoft Access Database Engine 2016 x64
+
+اختیاری ولی پیشنهادی:
+
+- SQL Server Management Studio
+
+---
+
+## 🗄️ اتصال دیتابیس SQL
+
+برای دیتابیس‌های MDF/LDF:
+
+1. برنامه **SSMS** را باز کنید
+2. به SQL Server متصل شوید
+3. روی **Databases** راست کلیک کنید
+4. گزینه **Attach** را بزنید
+5. روی **Add** کلیک کنید
+6. فایل MDF را انتخاب کنید
+7. فایل LDF معمولاً خودکار شناسایی می‌شود
+8. روی **OK** بزنید
+
+---
+
+## 📁 دیتابیس‌های MDB
+
+فایل‌های MDB نیازی به Attach داخل SQL Server ندارند.
+
+فقط کافیست:
+
+- Microsoft Access Database Engine 2016 x64 نصب باشد
+- مسیر فایل‌های MDB داخل `config.json` درست تنظیم شود
+
+---
+
+## ▶️ اجرای برنامه
+
+فایل زیر را اجرا کنید:
+
+```text
+IRDataExplorer.exe
+```
+
+---
+
+## 📡 Social Media
 
 [![Telegram](https://img.shields.io/badge/Telegram-Join-blue)](https://t.me/I2xAm1r)  
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-red)](https://instagram.com/2xam1r)  
@@ -222,5 +424,3 @@ If the app cannot connect to the database:
 ## 👨‍💻 Developer
 
 Developed by **I2xAm1r**
-
----
